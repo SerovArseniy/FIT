@@ -9,10 +9,19 @@ html,body{
 }
 a{
     text-decoration: none;
+    color: black;
+    transition-duration: 0.5s;
+}
+a:hover{
+    letter-spacing: 2px;
+    transform: translate(0, -5%);
 }
 h1{
     font-size: 30px;
 }
 p{
     font-size: 16px;
+}
+:root{
+    --side-padding:8%;
 }

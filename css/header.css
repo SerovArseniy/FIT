@@ -1,0 +1,22 @@
+header{
+    width: 100%;
+    padding: 10px var(--side-padding);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo__object{
+    font-size: 36px;
+}
+.logo p{
+    line-height: 18px;
+}
+header nav{
+    display: flex;
+    gap: 20px;
+}
