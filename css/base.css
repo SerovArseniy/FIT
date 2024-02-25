@@ -50,3 +50,11 @@ button:hover{
     background-color: rgb(8, 89, 188);
     transform: translate(0, -5%);
 }
+section, footer{
+    opacity: 0;
+    transition-duration: 0.5s;
+    transition-delay: 0.5s;
+}
+.start{
+    opacity: 1;
+}
