@@ -1,0 +1,39 @@
+@media (max-width:950px) {
+    .welcome{
+        padding: 0;
+    }
+    .welcome__body{
+        border-radius: 0;
+    }
+    .logo, header nav a{
+        color: var(--white);
+    }
+    .welcome__content{
+        border-radius: 0;
+    }
+}
+@media (max-width:750px) {
+    :root{
+        --side-padding:4%;
+    }
+    .logo p{
+        display: none;
+    }
+}
+@media (max-width:550px){
+    .welcome__content h1{
+        padding-right: 0;
+    }
+    .welcome__content p{
+        padding-right: 0;
+    }
+    .welcome__content{
+        align-items: center;
+        text-align: center;
+    }
+    header,header nav{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
